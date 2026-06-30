@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0224/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0224/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 北帝說豁落七元經
+  date: '2015-08-29 03:00:25.003772'
+  source:
+    repository: kanripo
+    path: KR5g0224
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0224_000-HFL.yaml, hash: 'sha256:4594a2e2bda4c9164ad35136d43c81afa406dc5e4ddb8e7b671fb0b10d5b8172'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0224_000-HFL.markers.yaml, hash: 'sha256:496b12abe65a01d163299d4953e786b22760e93489a5b7e7f2c0ad385c210db3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0224_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2388
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:74573b3164ae24e8c3f03f151108767f7911a5cfe08be1ca9671cfcf51e4b906
